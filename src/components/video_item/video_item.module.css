@@ -1,0 +1,12 @@
+.video_item {
+    width: 30%;
+    padding: 2rem;
+}
+
+.video_thumnail {
+    width: 100%;
+}
+
+.video_title {
+    overflow: hidden;
+}
