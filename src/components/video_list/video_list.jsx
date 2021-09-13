@@ -5,7 +5,8 @@ import styles from './video_list.module.css'
 const VideoList = (props) => (
     <ul className={styles.video_list}>
         {props.videos.map(video => (
-            <VideoItem key={video.id} video={video}/>
+            //videoId 가 없는 객체는 어떻게 해야 할까?
+            <VideoItem key={video.id.videoId} video={video}/>
         ))}
     </ul>
 );

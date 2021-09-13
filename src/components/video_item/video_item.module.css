@@ -1,5 +1,5 @@
 .video_item {
-    width: 30%;
+    width: 50%;
     padding: 2rem;
 }
 
@@ -9,4 +9,10 @@
 
 .video_title {
     overflow: hidden;
+    white-space : nowrap;
 }
+
+.video_author{
+    white-space: nowrap;
+}
+
