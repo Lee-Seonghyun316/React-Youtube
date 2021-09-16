@@ -18,22 +18,10 @@ function App() {
             .catch(error => console.log('error', error));
     }, []);
 
-    // useEffect(() => {
-    //     const requestOptions = {
-    //         method: 'GET',
-    //         redirect: 'follow'
-    //     };
-    //
-    //     fetch("https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=blackpink&key=AIzaSyAoP_rA-CaHFtnkAE0fKxKMJE80XceznX0", requestOptions)
-    //         .then(response => response.json())
-    //         .then(result => setVideos(result.items))
-    //         .catch(error => console.log('error', error));
-    // }, []);
-
     return (
         <>
             <SearchHeader/>
-            <VideoList videos={videos}/>}
+            <VideoList videos={videos}/>
         </>
     )
 };
